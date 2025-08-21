@@ -1,0 +1,16 @@
+17:22:21.169 INFO  AUTOMATION - Suite iniciada: Default Suite
+17:22:21.260 DEBUG AUTOMATION - Borrando las carpetas de evidencia
+17:22:21.462 INFO  AUTOMATION - Setup del padre
+17:22:21.499 DEBUG AUTOMATION - Inicializando  el drive
+17:22:24.649 DEBUG AUTOMATION - Maximizando pantalla
+17:22:24.714 DEBUG AUTOMATION - Borrando cookies
+17:22:24.736 DEBUG AUTOMATION - Seteando implicit wait de 5 segundos
+17:22:24.742 DEBUG AUTOMATION - Asignando driver al webdriver provider
+17:22:24.909 INFO  AUTOMATION - Comenzando el test: liberartest
+17:22:24.945 INFO  AUTOMATION - Navegando a : https://pdt-eat-analistas-dev.subtrans.gob.cl/login
+17:22:43.417 INFO  AUTOMATION - Escribiendo Username
+17:22:43.499 INFO  AUTOMATION - Test fallido: liberartest
+17:22:43.499 DEBUG AUTOMATION - Tomando capturas
+17:22:43.536 INFO  AUTOMATION - Test fallido: liberartest
+17:22:43.537 DEBUG AUTOMATION - Tomando capturas
+17:22:43.558 INFO  AUTOMATION - Suite finalizada: Default Suite
