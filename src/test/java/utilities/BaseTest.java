@@ -13,15 +13,13 @@ import org.testng.asserts.SoftAssert;
 
 import java.time.Duration;
 
-
-@Listeners({TestListeners.class, SuiteListeners.class})
+@Listeners({ TestListeners.class, SuiteListeners.class })
 public class BaseTest {
     protected SoftAssert softAssert;
     protected WebDriver driver;
     protected WebDriverWait wait;
     protected final String regression = "regression";
     protected final String smoke = "smoke";
-
 
     @BeforeMethod(alwaysRun = true)
     public void MastersetUp() {
@@ -40,11 +38,12 @@ public class BaseTest {
         options.addArguments("--disable-popup-blocking");
 
         // Desactiva la gestión automática de contraseñas
-        options.setExperimentalOption("prefs", new java.util.HashMap<String, Object>() {{
-            put("credentials_enable_service", false);
-            put("profile.password_manager_enabled", false);
-        }});
-
+        options.setExperimentalOption("prefs", new java.util.HashMap<String, Object>() {
+            {
+                put("credentials_enable_service", false);
+                put("profile.password_manager_enabled", false);
+            }
+        });
 
         Logs.debug("Inicializando  el drive");
         driver = new ChromeDriver(options);
@@ -58,6 +57,8 @@ public class BaseTest {
         Logs.debug("Seteando implicit wait de 5 segundos");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
+        Logs.debug("Inicializando WebDriverWait");
+        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
         Logs.debug("Asignando driver al webdriver provider");
         new WebDriverProvider().set(driver);
