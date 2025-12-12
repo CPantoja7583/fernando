@@ -210,7 +210,14 @@ public class cotizacionesObraTests extends BaseTest {
         sleep(1000);
 
         String[] ruts = {
-                "19849673-1"
+                "10126738-5",
+                "19834296-3",
+                "9929578-3",
+                "12925103-4",
+                "11903671-2",
+                "6521358-3",
+                "11349992-3"
+
         };
 
         final var ingresarRut = driver.findElement(By.id("web_rut2"));
@@ -244,7 +251,10 @@ public class cotizacionesObraTests extends BaseTest {
         sleep(1000);
 
         String[] ruts = {
-                "19849673-1"
+                "26824210-4",
+                "19753387-0",
+                "15055112-9",
+                "21136547-1"
         };
 
         final var ingresarRut = driver.findElement(By.id("web_rut2"));
@@ -278,7 +288,14 @@ public class cotizacionesObraTests extends BaseTest {
         sleep(1000);
 
         String[] ruts = {
-                "19849673-1"
+                "20128875-4",
+                "21921867-2",
+                "13453736-1",
+                "19430086-7",
+                "10570254-K",
+                "11437367-2",
+                "16912141-9",
+                "17394258-3"
         };
 
         final var ingresarRut = driver.findElement(By.id("web_rut2"));
@@ -312,7 +329,14 @@ public class cotizacionesObraTests extends BaseTest {
         sleep(1000);
 
         String[] ruts = {
-                "19849673-1"
+                "20057544-K",
+                "15389456-6",
+                "8830610-4",
+                "18848941-9",
+                "16277260-0",
+                "16147896-2",
+                "16435221-8",
+                "21268628-K"
         };
 
         final var ingresarRut = driver.findElement(By.id("web_rut2"));
@@ -346,7 +370,14 @@ public class cotizacionesObraTests extends BaseTest {
         sleep(1000);
 
         String[] ruts = {
-                "19849673-1"
+                "6696488-4",
+                "21539788-2",
+                "16304474-9",
+                "12459258-5",
+                "20634939-5",
+                "21707940-3",
+                "18408787-1",
+                "12784130-6"
         };
 
         final var ingresarRut = driver.findElement(By.id("web_rut2"));
