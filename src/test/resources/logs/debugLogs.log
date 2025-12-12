@@ -1,16 +1,29 @@
-17:22:21.169 INFO  AUTOMATION - Suite iniciada: Default Suite
-17:22:21.260 DEBUG AUTOMATION - Borrando las carpetas de evidencia
-17:22:21.462 INFO  AUTOMATION - Setup del padre
-17:22:21.499 DEBUG AUTOMATION - Inicializando  el drive
-17:22:24.649 DEBUG AUTOMATION - Maximizando pantalla
-17:22:24.714 DEBUG AUTOMATION - Borrando cookies
-17:22:24.736 DEBUG AUTOMATION - Seteando implicit wait de 5 segundos
-17:22:24.742 DEBUG AUTOMATION - Asignando driver al webdriver provider
-17:22:24.909 INFO  AUTOMATION - Comenzando el test: liberartest
-17:22:24.945 INFO  AUTOMATION - Navegando a : https://pdt-eat-analistas-dev.subtrans.gob.cl/login
-17:22:43.417 INFO  AUTOMATION - Escribiendo Username
-17:22:43.499 INFO  AUTOMATION - Test fallido: liberartest
-17:22:43.499 DEBUG AUTOMATION - Tomando capturas
-17:22:43.536 INFO  AUTOMATION - Test fallido: liberartest
-17:22:43.537 DEBUG AUTOMATION - Tomando capturas
-17:22:43.558 INFO  AUTOMATION - Suite finalizada: Default Suite
+14:38:06.248 INFO  AUTOMATION - Suite iniciada: Default Suite
+14:38:06.361 DEBUG AUTOMATION - Borrando las carpetas de evidencia
+14:38:06.694 INFO  AUTOMATION - Setup del padre
+14:38:06.756 DEBUG AUTOMATION - Inicializando  el drive
+14:38:22.573 DEBUG AUTOMATION - Maximizando pantalla
+14:38:22.634 DEBUG AUTOMATION - Borrando cookies
+14:38:22.660 DEBUG AUTOMATION - Seteando implicit wait de 5 segundos
+14:38:22.670 DEBUG AUTOMATION - Asignando driver al webdriver provider
+14:38:22.940 INFO  AUTOMATION - Comenzando el test: donHernantest
+14:38:22.994 INFO  AUTOMATION - Navegando a : https://www.previred.com/wPortal/login/login.jsp
+14:38:23.368 INFO  AUTOMATION - Escribiendo Username
+14:38:23.542 INFO  AUTOMATION - Escrbiendo password
+14:38:23.658 INFO  AUTOMATION - Haciendo click en iniciar sesión
+14:38:23.790 INFO  AUTOMATION - Haciendo click en empresas
+14:38:25.822 INFO  AUTOMATION - Haciendo click en empresa guardias
+14:38:27.348 INFO  AUTOMATION - Haciendo click en remuneraciones
+14:38:29.086 INFO  AUTOMATION - Haciendo click en imprimir documentos
+14:38:29.200 INFO  AUTOMATION - Haciendo click en ver certficados
+14:38:31.716 INFO  AUTOMATION - Agregando RUT: 19261724-3
+14:38:32.022 INFO  AUTOMATION - Agregando RUT: 13500199-6
+14:38:32.249 INFO  AUTOMATION - Agregando RUT: 16417118-3
+14:38:32.489 INFO  AUTOMATION - Agregando RUT: 20027965-4
+14:38:32.704 INFO  AUTOMATION - Agregando RUT: 19969533-9
+14:38:32.932 INFO  AUTOMATION - Haciendo click en imprimir certificado
+14:38:43.211 INFO  AUTOMATION - Test exitoso: donHernantest
+14:38:43.211 DEBUG AUTOMATION - Tomando capturas
+14:38:43.421 INFO  AUTOMATION - Teardown del padre
+14:38:43.422 DEBUG AUTOMATION - Matando el driver
+14:38:43.843 INFO  AUTOMATION - Suite finalizada: Default Suite

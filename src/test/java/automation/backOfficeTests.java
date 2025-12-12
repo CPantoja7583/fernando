@@ -150,7 +150,7 @@ public class backOfficeTests extends BaseTest {
 
          */
 
-        // Espera a que los elementos estén presentes, puedes usar WebDriverWait si quieres más robustez
+        // Espera a que los elementos estén presentes,
         List<WebElement> verDocumentosButtons =
                 driver.findElements(By.xpath("//button[text()='Ver documento']"));
 

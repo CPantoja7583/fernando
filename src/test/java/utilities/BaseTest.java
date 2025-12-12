@@ -31,21 +31,6 @@ public class BaseTest {
         // Configura las ChromeOptions
         ChromeOptions options = new ChromeOptions();
 
-        // Desactiva la verificación de contraseñas
-        options.addArguments("--disable-password-manager-reauthentication");
-        options.addArguments("--disable-features=PasswordCheck");
-        options.addArguments("--disable-features=PasswordImport");
-        options.addArguments("--disable-features=AutofillServerCommunication");
-        options.addArguments("--disable-save-password-bubble");
-        options.addArguments("--disable-popup-blocking");
-
-        // Desactiva la gestión automática de contraseñas
-        options.setExperimentalOption("prefs", new java.util.HashMap<String, Object>() {{
-            put("credentials_enable_service", false);
-            put("profile.password_manager_enabled", false);
-        }});
-
-
         Logs.debug("Inicializando  el drive");
         driver = new ChromeDriver(options);
 
