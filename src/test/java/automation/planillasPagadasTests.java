@@ -1,4 +1,6 @@
 package automation;
 
-public class planillasPagadasTests {
+import utilities.BaseTest;
+
+public class planillasPagadasTests extends BaseTest {
 }

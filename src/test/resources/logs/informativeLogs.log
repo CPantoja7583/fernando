@@ -1,21 +1,19 @@
-14:38:06.248 INFO  AUTOMATION - Suite iniciada: Default Suite
-14:38:06.694 INFO  AUTOMATION - Setup del padre
-14:38:22.940 INFO  AUTOMATION - Comenzando el test: donHernantest
-14:38:22.994 INFO  AUTOMATION - Navegando a : https://www.previred.com/wPortal/login/login.jsp
-14:38:23.368 INFO  AUTOMATION - Escribiendo Username
-14:38:23.542 INFO  AUTOMATION - Escrbiendo password
-14:38:23.658 INFO  AUTOMATION - Haciendo click en iniciar sesión
-14:38:23.790 INFO  AUTOMATION - Haciendo click en empresas
-14:38:25.822 INFO  AUTOMATION - Haciendo click en empresa guardias
-14:38:27.348 INFO  AUTOMATION - Haciendo click en remuneraciones
-14:38:29.086 INFO  AUTOMATION - Haciendo click en imprimir documentos
-14:38:29.200 INFO  AUTOMATION - Haciendo click en ver certficados
-14:38:31.716 INFO  AUTOMATION - Agregando RUT: 19261724-3
-14:38:32.022 INFO  AUTOMATION - Agregando RUT: 13500199-6
-14:38:32.249 INFO  AUTOMATION - Agregando RUT: 16417118-3
-14:38:32.489 INFO  AUTOMATION - Agregando RUT: 20027965-4
-14:38:32.704 INFO  AUTOMATION - Agregando RUT: 19969533-9
-14:38:32.932 INFO  AUTOMATION - Haciendo click en imprimir certificado
-14:38:43.211 INFO  AUTOMATION - Test exitoso: donHernantest
-14:38:43.421 INFO  AUTOMATION - Teardown del padre
-14:38:43.843 INFO  AUTOMATION - Suite finalizada: Default Suite
+16:32:32.959 INFO  AUTOMATION - Suite iniciada: Default Suite
+16:32:33.277 INFO  AUTOMATION - Setup del padre
+16:32:35.725 INFO  AUTOMATION - Comenzando el test: obraAlsaneotest
+16:32:35.772 INFO  AUTOMATION - Navegando a : https://www.previred.com/wPortal/login/login.jsp
+16:32:47.041 INFO  AUTOMATION - Escribiendo Username
+16:32:47.183 INFO  AUTOMATION - Escrbiendo password
+16:32:47.286 INFO  AUTOMATION - Haciendo click en iniciar sesión
+16:32:47.364 INFO  AUTOMATION - Haciendo click en empresas
+16:32:49.024 INFO  AUTOMATION - Haciendo click en empresa guardias
+16:32:50.421 INFO  AUTOMATION - Haciendo click en remuneraciones
+16:32:53.010 INFO  AUTOMATION - Haciendo click en imprimir documentos
+16:32:53.100 INFO  AUTOMATION - Haciendo click en ver certficados
+16:32:55.546 INFO  AUTOMATION - Agregando RUT: 9155215-9
+16:32:55.705 INFO  AUTOMATION - Agregando RUT: 13887950-K
+16:32:55.876 INFO  AUTOMATION - Agregando RUT: 18039173-8
+16:32:56.132 INFO  AUTOMATION - Haciendo click en imprimir certificado
+16:33:16.493 INFO  AUTOMATION - Test exitoso: obraAlsaneotest
+16:33:16.651 INFO  AUTOMATION - Teardown del padre
+16:33:16.945 INFO  AUTOMATION - Suite finalizada: Default Suite

@@ -118,12 +118,17 @@ public class cotizacionesObraTests extends BaseTest {
 
         }
 
+        final var mes = driver.findElement(By.id("web_mesR0"));
+        Select selectMes = new Select(mes);
+
+        selectMes.selectByValue("11");
+
         Logs.info("Haciendo click en imprimir certificado");
         final var imprimirCertificado =
                 driver.findElement(By.id("imprimirPensiones"));
         imprimirCertificado.click();
 
-        sleep(10000);
+        sleep(20000);
     }
 
     @Test
@@ -270,12 +275,18 @@ public class cotizacionesObraTests extends BaseTest {
 
         }
 
+        final var mes = driver.findElement(By.id("web_mesR0"));
+        Select selectMes = new Select(mes);
+
+        selectMes.selectByValue("11");
+
+
         Logs.info("Haciendo click en imprimir certificado");
         final var imprimirCertificado =
                 driver.findElement(By.id("imprimirPensiones"));
         imprimirCertificado.click();
 
-        sleep(10000);
+        sleep(20000);
     }
 
     @Test
@@ -423,7 +434,6 @@ public class cotizacionesObraTests extends BaseTest {
                 driver.findElement(By.id("login"));
         iniciarSesion.click();
 
-
         Logs.info("Haciendo click en empresas");
         final var empresas =
                 driver.findElement(By.id("empresa"));
@@ -458,6 +468,4 @@ public class cotizacionesObraTests extends BaseTest {
         sleep(1000);
 
     }
-
-
 }
